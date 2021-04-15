@@ -1,0 +1,189 @@
+/*---------------------------------------定义最大宽度-----------------------------------------------------*/
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*---------------------------------------定义其他默认全局参数-----------------------------------------------------*/
+.navbar-default{
+  background: white;
+}
+body{
+  background: #f4f5f5;
+}
+a{
+  color: #8c9195;
+  text-decoration: none;
+}
+a:hover{
+  color: #006cff;
+  text-decoration:none;
+  cursor: pointer;
+}
+.nav-tabs > li > a:hover {
+  border:none
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: white;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #006cff;
+  background-color: white;
+  border: none;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.ul,ol,li{
+  list-style: none;
+}
+/*---------------------------------------定义细节参数-----------------------------------------------------*/
+.navbar{
+  margin-bottom: 0px;
+  height: 100px;
+  transition: 0.5s;
+}
+.navbar-transform{
+  margin-bottom: 0px;
+  height: 100px;
+  transform: translateY(-55px);
+  transition: 0.5s;
+}
+
+.navbar-brand>img{
+  width: 95px;
+  transform: translateY(-10px)
+}
+nav{
+  height: 60px;
+}
+nav>.container{
+  transform: translateY(4px);
+}
+.navbar>.container>.row:nth-child(1){
+  height: 45px;
+}
+.nav>li>a{
+  font-size: 1.73rem;
+}
+.nav-addtion{
+  height: 45px;
+  background: white;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+}
+.nav-addtion>.container>.btn-group{
+  margin-top:4px;
+}
+.main{
+  margin-top: 105px;
+
+}
+.divider{
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.main>.row>.main-article{
+  background: white;
+  height: 1200px;
+}
+.main>.row>.main-article>.container-fluid{
+  border-bottom: 1px solid #f1f1f1;
+}
+.main>.row>.main-article>.container-fluid>.main-nav{
+  margin-left: 10px;
+  line-height: 45px;
+  height: 45px;
+}
+.main>.row>.main-article>.container-fluid>.main-nav>span{
+  margin-right: 10px;
+}
+.main>.row>.main-article>.container-fluid>.main-nav>span>.active{
+  color: #006cff;
+}
+
+.main>.row>.main-ad{
+  height:500px;
+}
+.content-left>span{
+  margin-left: 10px;
+  color: #8c9195;
+  font-size: 1.2rem;
+}
+.content-right{
+  line-height: 100px;
+}
+.main-ad{
+  overflow: hidden;
+}
+.main-ad .row:nth-child(2){
+  margin-top: 15px;
+}
+.main-ad img{
+  width: 285px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color: #006cff;
+  background: none;
+  border:none;
+}
+
+/*---------------------------------------覆盖btn-default样式-----------------------------------------------------*/
+.btn-default {
+  margin-top: 4px;
+  color: #71777c;
+  background-color: #ffffff;
+  border: none;
+  font-size: 1.6rem;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #71777c;
+  background-color: #ffffff;
+  border: none;
+}
+.btn-default:hover {
+  color: #007fff;
+  background-color: #ffffff;
+  border: none;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #007fff;
+  background-color: #ffffff;
+  border: none;
+  box-shadow:none;
+  webkit-box-shadow:none;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: #007fff;
+  background-color: #ffffff;
+  border: none;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+
